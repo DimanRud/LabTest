@@ -1,0 +1,30 @@
+.nextbl {
+  margin-top: 80px;
+}
+
+.nextbl__content {
+  display: flex;
+  gap: 32px;
+}
+
+.nextbl__items {
+  margin-top: 108px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  .nxtbl__title {
+    font-family: 'Graphik LCG', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+}
+.nextbl__text {
+  margin-bottom: 50px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,19 @@
+
+
+.header__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.header__logo-mane {
+    display: block;
+    width: 11%;
+  }
+  .header__logo-sub {
+    display: none;
+    width: 11%;
+  }
+.header__burger {
+  display: none;
+}
